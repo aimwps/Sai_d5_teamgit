@@ -1,6 +1,8 @@
 answered = False
 
+
 while answered == False:
+
     question_one = input("Do you know what you are doing? [y/n]: ")
 
     if question_one.lower() == "y":
